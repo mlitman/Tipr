@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16F6BAA8C45243978BB6AC64 /* Pods_TIPR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD1C1646FD692237E35B032 /* Pods_TIPR.framework */; };
+		9BC1C4C2431D8B4C28965D92 /* Pods_TIPRUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345DD9FF73A99405F001E0C8 /* Pods_TIPRUITests.framework */; };
+		B81F08991E9937F800CA96FF /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08981E9937F800CA96FF /* Core.swift */; };
+		B81F089B1E99381800CA96FF /* Payee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F089A1E99381800CA96FF /* Payee.swift */; };
+		B81F089F1E99439500CA96FF /* AddServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F089E1E99439500CA96FF /* AddServiceVC.swift */; };
+		B81F08A11E9944B000CA96FF /* serviceListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08A01E9944B000CA96FF /* serviceListController.swift */; };
+		B81F08A31E9949EE00CA96FF /* serviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08A21E9949EE00CA96FF /* serviceList.swift */; };
+		B81F08A51E995F0800CA96FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B81F08A41E995F0800CA96FF /* GoogleService-Info.plist */; };
+		B81F08A91E996F4A00CA96FF /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08A81E996F4A00CA96FF /* Services.swift */; };
+		B81F08AB1E997D9D00CA96FF /* George.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B81F08AA1E997D9D00CA96FF /* George.jpg */; };
+		B81F08AD1E997EA100CA96FF /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B81F08AC1E997EA100CA96FF /* download.jpeg */; };
+		B81F08AF1E997F5C00CA96FF /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08AE1E997F5C00CA96FF /* ThankYouVC.swift */; };
+		B81F08B31E998D2C00CA96FF /* profile-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B81F08B21E998D2C00CA96FF /* profile-placeholder.png */; };
+		B81F08B51E99BE9F00CA96FF /* Thank-You.png in Resources */ = {isa = PBXBuildFile; fileRef = B81F08B41E99BE9F00CA96FF /* Thank-You.png */; };
 		B879B1D11E991A8100E3F4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1D01E991A8100E3F4C2 /* AppDelegate.swift */; };
 		B879B1D31E991A8100E3F4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1D21E991A8100E3F4C2 /* ViewController.swift */; };
 		B879B1D61E991A8100E3F4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879B1D41E991A8100E3F4C2 /* Main.storyboard */; };
@@ -14,6 +28,11 @@
 		B879B1DB1E991A8100E3F4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879B1D91E991A8100E3F4C2 /* LaunchScreen.storyboard */; };
 		B879B1E61E991A8100E3F4C2 /* TIPRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1E51E991A8100E3F4C2 /* TIPRTests.swift */; };
 		B879B1F11E991A8100E3F4C2 /* TIPRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1F01E991A8100E3F4C2 /* TIPRUITests.swift */; };
+		B879B1FF1E991EAC00E3F4C2 /* Screen2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1FE1E991EAC00E3F4C2 /* Screen2VC.swift */; };
+		B879B2031E9924C800E3F4C2 /* payeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B2021E9924C800E3F4C2 /* payeeList.swift */; };
+		B879B2071E99311400E3F4C2 /* AddPayeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B2061E99311400E3F4C2 /* AddPayeeVC.swift */; };
+		B879B2091E99345B00E3F4C2 /* SendTipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B2081E99345B00E3F4C2 /* SendTipVC.swift */; };
+		F9AF03DDB960CEC7264DA6D2 /* Pods_TIPRTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6330866204771DDAF715901F /* Pods_TIPRTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		305D6F707E2689F07DA56DD6 /* Pods-TIPRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIPRTests/Pods-TIPRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		345DD9FF73A99405F001E0C8 /* Pods_TIPRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIPRUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6952350457F313C26D11D /* Pods-TIPR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPR.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIPR/Pods-TIPR.release.xcconfig"; sourceTree = "<group>"; };
+		6330866204771DDAF715901F /* Pods_TIPRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIPRTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7FC386FAB61E645AF55C33 /* Pods-TIPRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIPRTests/Pods-TIPRTests.release.xcconfig"; sourceTree = "<group>"; };
+		B81F08981E9937F800CA96FF /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		B81F089A1E99381800CA96FF /* Payee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payee.swift; sourceTree = "<group>"; };
+		B81F089E1E99439500CA96FF /* AddServiceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddServiceVC.swift; path = ../AddServiceVC.swift; sourceTree = "<group>"; };
+		B81F08A01E9944B000CA96FF /* serviceListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = serviceListController.swift; sourceTree = "<group>"; };
+		B81F08A21E9949EE00CA96FF /* serviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = serviceList.swift; sourceTree = "<group>"; };
+		B81F08A41E995F0800CA96FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B81F08A81E996F4A00CA96FF /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		B81F08AA1E997D9D00CA96FF /* George.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = George.jpg; sourceTree = "<group>"; };
+		B81F08AC1E997EA100CA96FF /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		B81F08AE1E997F5C00CA96FF /* ThankYouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
+		B81F08B21E998D2C00CA96FF /* profile-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-placeholder.png"; sourceTree = "<group>"; };
+		B81F08B41E99BE9F00CA96FF /* Thank-You.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thank-You.png"; sourceTree = "<group>"; };
 		B879B1CD1E991A8100E3F4C2 /* TIPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B879B1D01E991A8100E3F4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B879B1D21E991A8100E3F4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,14 @@
 		B879B1EC1E991A8100E3F4C2 /* TIPRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIPRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B879B1F01E991A8100E3F4C2 /* TIPRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPRUITests.swift; sourceTree = "<group>"; };
 		B879B1F21E991A8100E3F4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B879B1FE1E991EAC00E3F4C2 /* Screen2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2VC.swift; sourceTree = "<group>"; };
+		B879B2021E9924C800E3F4C2 /* payeeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payeeList.swift; sourceTree = "<group>"; };
+		B879B2061E99311400E3F4C2 /* AddPayeeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPayeeVC.swift; sourceTree = "<group>"; };
+		B879B2081E99345B00E3F4C2 /* SendTipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendTipVC.swift; path = ../SendTipVC.swift; sourceTree = "<group>"; };
+		B99F65DDF9479A436BF83CD4 /* Pods-TIPRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIPRUITests/Pods-TIPRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F666335C0562C6CB38BC2C /* Pods-TIPRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TIPRUITests/Pods-TIPRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C98616AFCC569A0D0A7ACA86 /* Pods-TIPR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TIPR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TIPR/Pods-TIPR.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD1C1646FD692237E35B032 /* Pods_TIPR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TIPR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F6BAA8C45243978BB6AC64 /* Pods_TIPR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9AF03DDB960CEC7264DA6D2 /* Pods_TIPRTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +114,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC1C4C2431D8B4C28965D92 /* Pods_TIPRUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		998E6C6354AC3AC2DE57997C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD1C1646FD692237E35B032 /* Pods_TIPR.framework */,
+				6330866204771DDAF715901F /* Pods_TIPRTests.framework */,
+				345DD9FF73A99405F001E0C8 /* Pods_TIPRUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B879B1C41E991A8100E3F4C2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +138,8 @@
 				B879B1E41E991A8100E3F4C2 /* TIPRTests */,
 				B879B1EF1E991A8100E3F4C2 /* TIPRUITests */,
 				B879B1CE1E991A8100E3F4C2 /* Products */,
+				D61697B7C0628E443E45C8B6 /* Pods */,
+				998E6C6354AC3AC2DE57997C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +156,28 @@
 		B879B1CF1E991A8100E3F4C2 /* TIPR */ = {
 			isa = PBXGroup;
 			children = (
+				B81F08B41E99BE9F00CA96FF /* Thank-You.png */,
+				B81F08B21E998D2C00CA96FF /* profile-placeholder.png */,
+				B81F08AC1E997EA100CA96FF /* download.jpeg */,
+				B81F08AA1E997D9D00CA96FF /* George.jpg */,
+				B81F08A41E995F0800CA96FF /* GoogleService-Info.plist */,
 				B879B1D01E991A8100E3F4C2 /* AppDelegate.swift */,
+				B81F089E1E99439500CA96FF /* AddServiceVC.swift */,
+				B879B2081E99345B00E3F4C2 /* SendTipVC.swift */,
 				B879B1D21E991A8100E3F4C2 /* ViewController.swift */,
 				B879B1D41E991A8100E3F4C2 /* Main.storyboard */,
+				B81F08AE1E997F5C00CA96FF /* ThankYouVC.swift */,
+				B81F08A21E9949EE00CA96FF /* serviceList.swift */,
+				B81F08A01E9944B000CA96FF /* serviceListController.swift */,
+				B879B1FE1E991EAC00E3F4C2 /* Screen2VC.swift */,
 				B879B1D71E991A8100E3F4C2 /* Assets.xcassets */,
 				B879B1D91E991A8100E3F4C2 /* LaunchScreen.storyboard */,
 				B879B1DC1E991A8100E3F4C2 /* Info.plist */,
+				B879B2021E9924C800E3F4C2 /* payeeList.swift */,
+				B879B2061E99311400E3F4C2 /* AddPayeeVC.swift */,
+				B81F08981E9937F800CA96FF /* Core.swift */,
+				B81F089A1E99381800CA96FF /* Payee.swift */,
+				B81F08A81E996F4A00CA96FF /* Services.swift */,
 			);
 			path = TIPR;
 			sourceTree = "<group>";
@@ -125,6 +200,19 @@
 			path = TIPRUITests;
 			sourceTree = "<group>";
 		};
+		D61697B7C0628E443E45C8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98616AFCC569A0D0A7ACA86 /* Pods-TIPR.debug.xcconfig */,
+				49C6952350457F313C26D11D /* Pods-TIPR.release.xcconfig */,
+				305D6F707E2689F07DA56DD6 /* Pods-TIPRTests.debug.xcconfig */,
+				9A7FC386FAB61E645AF55C33 /* Pods-TIPRTests.release.xcconfig */,
+				B99F65DDF9479A436BF83CD4 /* Pods-TIPRUITests.debug.xcconfig */,
+				C2F666335C0562C6CB38BC2C /* Pods-TIPRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B879B1F51E991A8100E3F4C2 /* Build configuration list for PBXNativeTarget "TIPR" */;
 			buildPhases = (
+				2E303D066F3294C7261F575B /* [CP] Check Pods Manifest.lock */,
 				B879B1C91E991A8100E3F4C2 /* Sources */,
 				B879B1CA1E991A8100E3F4C2 /* Frameworks */,
 				B879B1CB1E991A8100E3F4C2 /* Resources */,
+				674F864C009AA46C5BECE898 /* [CP] Embed Pods Frameworks */,
+				4FB434A092B51D3A82DF4501 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B879B1F81E991A8100E3F4C2 /* Build configuration list for PBXNativeTarget "TIPRTests" */;
 			buildPhases = (
+				774CFAEAA413FD52A1907A21 /* [CP] Check Pods Manifest.lock */,
 				B879B1DD1E991A8100E3F4C2 /* Sources */,
 				B879B1DE1E991A8100E3F4C2 /* Frameworks */,
 				B879B1DF1E991A8100E3F4C2 /* Resources */,
+				CDAA8740A524BF22CAF63515 /* [CP] Embed Pods Frameworks */,
+				A98C82B5AC11EFFDBF4A31D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B879B1FB1E991A8100E3F4C2 /* Build configuration list for PBXNativeTarget "TIPRUITests" */;
 			buildPhases = (
+				3D6C175B287B5775F6B6B5B0 /* [CP] Check Pods Manifest.lock */,
 				B879B1E81E991A8100E3F4C2 /* Sources */,
 				B879B1E91E991A8100E3F4C2 /* Frameworks */,
 				B879B1EA1E991A8100E3F4C2 /* Resources */,
+				D3241E8892746CEAD32073A4 /* [CP] Embed Pods Frameworks */,
+				40A10F835DDEE01699344CD0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +329,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81F08AB1E997D9D00CA96FF /* George.jpg in Resources */,
 				B879B1DB1E991A8100E3F4C2 /* LaunchScreen.storyboard in Resources */,
+				B81F08B31E998D2C00CA96FF /* profile-placeholder.png in Resources */,
+				B81F08A51E995F0800CA96FF /* GoogleService-Info.plist in Resources */,
 				B879B1D81E991A8100E3F4C2 /* Assets.xcassets in Resources */,
+				B81F08B51E99BE9F00CA96FF /* Thank-You.png in Resources */,
 				B879B1D61E991A8100E3F4C2 /* Main.storyboard in Resources */,
+				B81F08AD1E997EA100CA96FF /* download.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +356,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E303D066F3294C7261F575B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D6C175B287B5775F6B6B5B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40A10F835DDEE01699344CD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPRUITests/Pods-TIPRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB434A092B51D3A82DF4501 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPR/Pods-TIPR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674F864C009AA46C5BECE898 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPR/Pods-TIPR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774CFAEAA413FD52A1907A21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A98C82B5AC11EFFDBF4A31D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPRTests/Pods-TIPRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDAA8740A524BF22CAF63515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPRTests/Pods-TIPRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3241E8892746CEAD32073A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TIPRUITests/Pods-TIPRUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B879B1C91E991A8100E3F4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B879B1FF1E991EAC00E3F4C2 /* Screen2VC.swift in Sources */,
+				B81F08A91E996F4A00CA96FF /* Services.swift in Sources */,
+				B81F08A31E9949EE00CA96FF /* serviceList.swift in Sources */,
+				B879B2031E9924C800E3F4C2 /* payeeList.swift in Sources */,
+				B81F089B1E99381800CA96FF /* Payee.swift in Sources */,
+				B879B2091E99345B00E3F4C2 /* SendTipVC.swift in Sources */,
+				B81F08991E9937F800CA96FF /* Core.swift in Sources */,
 				B879B1D31E991A8100E3F4C2 /* ViewController.swift in Sources */,
+				B879B2071E99311400E3F4C2 /* AddPayeeVC.swift in Sources */,
+				B81F08AF1E997F5C00CA96FF /* ThankYouVC.swift in Sources */,
+				B81F089F1E99439500CA96FF /* AddServiceVC.swift in Sources */,
 				B879B1D11E991A8100E3F4C2 /* AppDelegate.swift in Sources */,
+				B81F08A11E9944B000CA96FF /* serviceListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +661,7 @@
 		};
 		B879B1F61E991A8100E3F4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98616AFCC569A0D0A7ACA86 /* Pods-TIPR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TIPR/Info.plist;
@@ -422,6 +674,7 @@
 		};
 		B879B1F71E991A8100E3F4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C6952350457F313C26D11D /* Pods-TIPR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TIPR/Info.plist;
@@ -434,6 +687,7 @@
 		};
 		B879B1F91E991A8100E3F4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305D6F707E2689F07DA56DD6 /* Pods-TIPRTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +702,7 @@
 		};
 		B879B1FA1E991A8100E3F4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7FC386FAB61E645AF55C33 /* Pods-TIPRTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +717,7 @@
 		};
 		B879B1FC1E991A8100E3F4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99F65DDF9479A436BF83CD4 /* Pods-TIPRUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TIPRUITests/Info.plist;
@@ -475,6 +731,7 @@
 		};
 		B879B1FD1E991A8100E3F4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F666335C0562C6CB38BC2C /* Pods-TIPRUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TIPRUITests/Info.plist;
@@ -505,6 +762,7 @@
 				B879B1F71E991A8100E3F4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B879B1F81E991A8100E3F4C2 /* Build configuration list for PBXNativeTarget "TIPRTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +771,7 @@
 				B879B1FA1E991A8100E3F4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B879B1FB1E991A8100E3F4C2 /* Build configuration list for PBXNativeTarget "TIPRUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +780,7 @@
 				B879B1FD1E991A8100E3F4C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
