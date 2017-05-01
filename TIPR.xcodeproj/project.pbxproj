@@ -20,7 +20,6 @@
 		B81F08AD1E997EA100CA96FF /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B81F08AC1E997EA100CA96FF /* download.jpeg */; };
 		B81F08AF1E997F5C00CA96FF /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F08AE1E997F5C00CA96FF /* ThankYouVC.swift */; };
 		B81F08B31E998D2C00CA96FF /* profile-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B81F08B21E998D2C00CA96FF /* profile-placeholder.png */; };
-		B81F08B51E99BE9F00CA96FF /* Thank-You.png in Resources */ = {isa = PBXBuildFile; fileRef = B81F08B41E99BE9F00CA96FF /* Thank-You.png */; };
 		B879B1D11E991A8100E3F4C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1D01E991A8100E3F4C2 /* AppDelegate.swift */; };
 		B879B1D31E991A8100E3F4C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B879B1D21E991A8100E3F4C2 /* ViewController.swift */; };
 		B879B1D61E991A8100E3F4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B879B1D41E991A8100E3F4C2 /* Main.storyboard */; };
@@ -69,7 +68,6 @@
 		B81F08AC1E997EA100CA96FF /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		B81F08AE1E997F5C00CA96FF /* ThankYouVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
 		B81F08B21E998D2C00CA96FF /* profile-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-placeholder.png"; sourceTree = "<group>"; };
-		B81F08B41E99BE9F00CA96FF /* Thank-You.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thank-You.png"; sourceTree = "<group>"; };
 		B879B1CD1E991A8100E3F4C2 /* TIPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B879B1D01E991A8100E3F4C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B879B1D21E991A8100E3F4C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 		B879B1CF1E991A8100E3F4C2 /* TIPR */ = {
 			isa = PBXGroup;
 			children = (
-				B81F08B41E99BE9F00CA96FF /* Thank-You.png */,
 				B81F08B21E998D2C00CA96FF /* profile-placeholder.png */,
 				B81F08AC1E997EA100CA96FF /* download.jpeg */,
 				B81F08AA1E997D9D00CA96FF /* George.jpg */,
@@ -334,7 +331,6 @@
 				B81F08B31E998D2C00CA96FF /* profile-placeholder.png in Resources */,
 				B81F08A51E995F0800CA96FF /* GoogleService-Info.plist in Resources */,
 				B879B1D81E991A8100E3F4C2 /* Assets.xcassets in Resources */,
-				B81F08B51E99BE9F00CA96FF /* Thank-You.png in Resources */,
 				B879B1D61E991A8100E3F4C2 /* Main.storyboard in Resources */,
 				B81F08AD1E997EA100CA96FF /* download.jpeg in Resources */,
 			);

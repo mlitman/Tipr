@@ -37,8 +37,7 @@ class AddServiceVC: UIViewController
     func saveServiceToFirebase(p: Services)
     {
         let ref = FIRDatabase.database().reference().child("businesses").child(Core.selectedBusiness).child("services").childByAutoId()
-        //ref.setValue(p.getDictionary())
-        //self.dismiss(animated: true, completion: nil)
+        
         ref.setValue(p.getDictionary(), withCompletionBlock: { (error: Error?, ref: FIRDatabaseReference) in
             if(error == nil)
             {
